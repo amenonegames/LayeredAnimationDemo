@@ -2,6 +2,8 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
+/test.app/
+/test.app
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
@@ -9,6 +11,7 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Mm]emoryCaptures/
+/[Uu]ser[Ss]ettings/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
@@ -54,7 +57,12 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+*.unitypackage.meta
 
 # Crashlytics generated file
 crashlytics-build.properties
 
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+
+/Assets/InitTestScene*.unity*
